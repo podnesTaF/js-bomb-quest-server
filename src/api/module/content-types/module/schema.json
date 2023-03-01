@@ -4,7 +4,8 @@
   "info": {
     "singularName": "module",
     "pluralName": "modules",
-    "displayName": "Module"
+    "displayName": "Module",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,10 @@
       "relation": "oneToMany",
       "target": "api::question.question",
       "mappedBy": "module"
+    },
+    "complexity": {
+      "type": "integer",
+      "required": true
     }
   }
 }

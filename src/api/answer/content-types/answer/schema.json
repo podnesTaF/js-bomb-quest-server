@@ -29,6 +29,9 @@
     "position": {
       "required": false,
       "type": "integer"
+    },
+    "box": {
+      "type": "string"
     }
   }
 }

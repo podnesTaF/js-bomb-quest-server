@@ -43,6 +43,9 @@
     "snippet": {
       "type": "text",
       "required": false
+    },
+    "boxes": {
+      "type": "string"
     }
   }
 }
